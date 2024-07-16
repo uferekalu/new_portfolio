@@ -100,38 +100,40 @@ export const workExperience = [
     type: 'Remote',
     date: 'June 2023',
     location: 'Lagos, Nigeria',
-    description: `Collaborated with a dynamic team of developers to strategize, build, and implement a cutting-edge browser
+    description: [
+      `Collaborated with a dynamic team of developers to strategize, build, and implement a cutting-edge browser
             extension. This extension seamlessly searches for items on Google, extracts information from the landing
             page, saves searched links, organizes them into folders, bookmarks items, and integrates GPT functionality.
-            Notably, it empowers users to save GPT responses and generate summaries with ease.
-            ● Developed the Profile, Dashboard, Save Tab, and Tabs UIs for the browser extension.
-            ● Created the GPT UI and integrated it into the extension.
-            ● Engineered an Authentication system to enhance security and user management.
-            ● Modified the existing dashboard to improve functionality and aesthetics.
-            ● Created a reusable tab section component for efficient UI development.
-            ● Fixed issues with the filter by tag pull-down menu for better usability.
-            ● Implemented functionalities to save tabs and display them within the extension.
-            ● Implemented the retrieval of bookmarks within the dashboard UI.
-            ● Implemented view and delete functionalities for bookmarks, enhancing user control and customization.
-            ● Developed a cutting-edge browser extension with OCR and ChatGPT capabilities using Amazon
+            Notably, it empowers users to save GPT responses and generate summaries with ease.`,
+      `Developed the Profile, Dashboard, Save Tab, and Tabs UIs for the browser extension.`,
+      `Created the GPT UI and integrated it into the extension.`,
+      `Engineered an Authentication system to enhance security and user management.`,
+      `Modified the existing dashboard to improve functionality and aesthetics.`,
+      `Created a reusable tab section component for efficient UI development.`,
+      `Fixed issues with the filter by tag pull-down menu for better usability.`,
+      ` Implemented functionalities to save tabs and display them within the extension.`,
+      `Implemented the retrieval of bookmarks within the dashboard UI.`,
+      ` Implemented view and delete functionalities for bookmarks, enhancing user control and customization.`,
+      ` Developed a cutting-edge browser extension with OCR and ChatGPT capabilities using Amazon
             Textract and Google Vision, boosting user query processing with advanced applications of GPT-3.0 and
-            DALL-E.
-            ● Implemented responsive web design principles using HTML, CSS, and JavaScript to ensure optimal
-            performance across desktop and mobile platforms.
-            ● Conducted cross-browser testing and debugging to ensure consistent rendering and performance
-            across different web browsers.
-            ● Implemented TDD (Test-Driven Development) methods using Jest and Mocha, resulting in higher code
-            quality and a 20% reduction in rolled-back changes.
-            ● Developed an online learning platform where students can quickly find and connect with top-quality
-            tutors for help with homework, studying, and tests, both online and in person.
-            ● Enhanced website functionality by integrating JavaScript libraries and frameworks such as jQuery and
-            Bootstrap.
-            ● Contributed significantly to frontend enhancements, focusing on improving user interfaces with
+            DALL-E.`,
+      `Implemented responsive web design principles using HTML, CSS, and JavaScript to ensure optimal
+            performance across desktop and mobile platforms.`,
+      `Conducted cross-browser testing and debugging to ensure consistent rendering and performance
+            across different web browsers.`,
+      `Implemented TDD (Test-Driven Development) methods using Jest and Mocha, resulting in higher code
+            quality and a 20% reduction in rolled-back changes.`,
+      `Developed an online learning platform where students can quickly find and connect with top-quality
+            tutors for help with homework, studying, and tests, both online and in person.`,
+      `Enhanced website functionality by integrating JavaScript libraries and frameworks such as jQuery and
+            Bootstrap.`,
+      `Contributed significantly to frontend enhancements, focusing on improving user interfaces with
             React.js, HTML/CSS, Sass, Less, and Ant Design. Worked on a
             Node.js/Express.js/Mongoose/MongoDB backend using event-driven programming with WebRTC and
-            WebSocket to support video conferencing and live chat systems.
-            ● Integrated Redis for caching and session management, significantly decreasing load times and
+            WebSocket to support video conferencing and live chat systems.`,
+      `Integrated Redis for caching and session management, significantly decreasing load times and
             enhancing user experience.`,
+    ],
   },
   {
     role: 'Full Stack JavaScript Developer',
@@ -139,15 +141,17 @@ export const workExperience = [
     type: 'Remote',
     date: 'Aug 2022 - Feb 2023',
     location: 'Lagos, Nigeria',
-    description: `Led a team of 6 developers to plan, implement and deliver a driving and car clearing application by using
-      various JavaScript technologies resulting in increase in productivity.
-      ● Designed and implemented a driving and car clearing application that delivers goods locally based on
-      its size.
-      ● Worked closely with clients to understand their requirements and implemented the functionalities to
-      meet their needs.
-      ● Managed the software development life cycle, including code reviews, testing, and deployment.
-      ● Improved team productivity by adopting agile methodologies and conducting regular stand-up
+    description: [
+      `Led a team of 6 developers to plan, implement and deliver a driving and car clearing application by using
+      various JavaScript technologies resulting in increase in productivity.`,
+      `Designed and implemented a driving and car clearing application that delivers goods locally based on
+      its size.`,
+      `Worked closely with clients to understand their requirements and implemented the functionalities to
+      meet their needs.`,
+      `Managed the software development life cycle, including code reviews, testing, and deployment.`,
+      `Improved team productivity by adopting agile methodologies and conducting regular stand-up
       meetings.`,
+    ],
   },
   {
     role: 'Full Stack JavaScript Developer',
@@ -155,37 +159,39 @@ export const workExperience = [
     type: 'Remote',
     date: 'Feb 2019 - July 2022',
     location: 'USA',
-    description: `Collaborated with a team of 4 developers in delivering an Advertising and Surfing application by adopting agile
-        methodologies which resulted in 25% increase in productivity.
-        ● Designed and developed an advertising application satisfactorily within tight deadlines.
-        ● Worked closely with clients to understand their requirements and implemented the functionalities to
-        meet their needs.
-        ● Implemented automated testing and deployment processes resulting in increased software reliability
-        and faster delivery
-        ● Refactored outdated frontend code for companies’ UI, transforming it into a highly scalable,
+    description: [
+      `Collaborated with a team of 4 developers in delivering an Advertising and Surfing application by adopting agile
+        methodologies which resulted in 25% increase in productivity.`,
+      `Designed and developed an advertising application satisfactorily within tight deadlines.`,
+      `Worked closely with clients to understand their requirements and implemented the functionalities to
+        meet their needs.`,
+      `Implemented automated testing and deployment processes resulting in increased software reliability
+        and faster delivery.`,
+      `Refactored outdated frontend code for companies’ UI, transforming it into a highly scalable,
         maintainable, and responsive design while ensuring compatibility across various browsers. Resolved
         overflow bugs, handled previously unhandled inputs, click events and animations, resulting in a
-        seamless user experience.
-        ● Redesigned the UI to enhance aesthetics, creating an aesthetically pleasing interface for consumers.
-        ● Increased mobile responsiveness, resulting in a 30% rise in mobile user retention.
-        ● Accomplished a 40% decrease in customer support inquiries related to UI issues.
-        ● Improved team productivity by 20% through the adoption of agile methodologies and introduction of
+        seamless user experience.`,
+      `Redesigned the UI to enhance aesthetics, creating an aesthetically pleasing interface for consumers.`,
+      `Increased mobile responsiveness, resulting in a 30% rise in mobile user retention.`,
+      `Accomplished a 40% decrease in customer support inquiries related to UI issues.`,
+      `Improved team productivity by 20% through the adoption of agile methodologies and introduction of
         ephemeral environments, resulting in 15% reduction in software development time and a 25% decrease
-        in production defects.
-        ● Developed and deployed Node.js applications with robust security measures, including implementing
+        in production defects.`,
+      `Developed and deployed Node.js applications with robust security measures, including implementing
         protected routes to prevent unwanted data leaks and unauthorized access. Incorporated additional
         security layers to defend against various known attacks, ensuring the integrity and confidentiality of
-        sensitive data.
-        ● Reduced the number of security incidents by 30% through the implementation of comprehensive
+        sensitive data.`,
+      `Reduced the number of security incidents by 30% through the implementation of comprehensive
         security measures and proactive monitoring, demonstrating a strong commitment to safeguarding user
-        data and maintaining a secure environment.
-        ● Refactored legacy frontend code to create a more scalable, maintainable, responsive and
+        data and maintaining a secure environment.`,
+      `Refactored legacy frontend code to create a more scalable, maintainable, responsive and
         cross-browser compatible solution, effectively eliminating overflow of bugs and ensuring robust input
-        handling to prevent xss attacks.
-        ● Achieved a 40% reduction in page loading time and received positive feedback from users, resulting in
+        handling to prevent xss attacks.`,
+      `Achieved a 40% reduction in page loading time and received positive feedback from users, resulting in
         a 17% increase in user engagement and a 12% decrease in bounce rate. Implemented clean and
         modular code architecture, contributing to a 30% decrease in bug reports and allowing for efficient
         feature additions and updates leading to a 25% increase in development speed.`,
+    ],
   },
   {
     role: 'Full Stack JavaScript Developer',
@@ -193,13 +199,15 @@ export const workExperience = [
     type: 'Remote',
     date: 'Aug 2018 - Sep. 2021;',
     location: 'Sydney - Australia',
-    description: `Worked with a team of 10 developers to plan, design and implement an ecommerce application for buyers and
-          vendors alike by adopting agile methodologies which resulted in optimal product delivery.
-          ● Orchestrated and implemented the design from Figma for various user interfaces of the ecommerce
-          application through agile methodology.
-          ● Worked closely with clients to understand their requirements and implemented the functionalities to
-          meet their needs.
-          ● Implemented data analysis tools to monitor and improve the performance of the ecommerce
+    description: [
+      `Worked with a team of 10 developers to plan, design and implement an ecommerce application for buyers and
+          vendors alike by adopting agile methodologies which resulted in optimal product delivery.`,
+      `Orchestrated and implemented the design from Figma for various user interfaces of the ecommerce
+          application through agile methodology.`,
+      `Worked closely with clients to understand their requirements and implemented the functionalities to
+          meet their needs.`,
+      `Implemented data analysis tools to monitor and improve the performance of the ecommerce
           application.`,
+    ],
   },
 ]

@@ -51,29 +51,36 @@ const About = () => {
               Work Experience
             </span>
             {workExperience.map((work, index) => (
-              <div className='flex flex-col w-full py-4 bg-white rounded-md px-6' key={index}>
-                <div className='flex gap-3 my-2'>
-                  <span className='text-sm font-bold w-[100px]'>Role:</span>
-                  <span className='text-sm'>{work.role}</span>
+              <div
+                className="flex flex-col w-full py-4 bg-white rounded-md px-6"
+                key={index}
+              >
+                <div className="flex gap-3 my-2">
+                  <span className="text-sm font-bold w-[100px]">Role:</span>
+                  <span className="text-sm">{work.role}</span>
                 </div>
-                <div className='flex gap-3 my-2'>
-                  <span className='text-sm font-bold w-[100px]'>Company:</span>
-                  <span className='text-sm'>{work.company}</span>
+                <div className="flex gap-3 my-2">
+                  <span className="text-sm font-bold w-[100px]">Company:</span>
+                  <span className="text-sm">{work.company}</span>
                 </div>
-                <div className='flex gap-3 my-2'>
-                  <span className='text-sm font-bold w-[100px]'>Type:</span>
-                  <span className='text-sm'>{work.type}</span>
+                <div className="flex gap-3 my-2">
+                  <span className="text-sm font-bold w-[100px]">Type:</span>
+                  <span className="text-sm">{work.type}</span>
                 </div>
-                <div className='flex gap-3 my-2'>
-                  <span className='text-sm font-bold w-[100px]'>Date:</span>
-                  <span className='text-sm'>{work.date}</span>
+                <div className="flex gap-3 my-2">
+                  <span className="text-sm font-bold w-[100px]">Date:</span>
+                  <span className="text-sm">{work.date}</span>
                 </div>
-                <div className='flex gap-3 my-2'>
-                  <span className='text-sm font-bold w-[100px]'>Location:</span>
-                  <span className='text-sm'>{work.location}</span>
+                <div className="flex gap-3 my-2">
+                  <span className="text-sm font-bold w-[100px]">Location:</span>
+                  <span className="text-sm">{work.location}</span>
                 </div>
-                <div className='flex gap-3 my-2'>
-                  <span className='text-sm text-justify'>{work.description}</span>
+                <div className="flex flex-col gap-3 my-2">
+                  {work.description.map((desc, index) => (
+                    <span key={index} className="text-sm text-justify">
+                      {desc}
+                    </span>
+                  ))}
                 </div>
               </div>
             ))}
