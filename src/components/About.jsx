@@ -52,7 +52,7 @@ const About = () => {
             </span>
             {workExperience.map((work, index) => (
               <div
-                className="flex flex-col w-full py-4 bg-white rounded-md px-6"
+                className="flex flex-col w-full py-4 bg-white rounded-md px-6 shadow-lg"
                 key={index}
               >
                 <div className="flex gap-3 my-2">

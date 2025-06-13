@@ -3,7 +3,7 @@ import codeIcon from '../assets/code.svg'
 import { useNavigate } from 'react-router-dom'
 import { AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
-import cvPdf from '../assets/cv.pdf'
+import cvPdf from '../assets/kalu_ufere.pdf'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)

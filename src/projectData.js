@@ -1,5 +1,6 @@
 import project1 from './assets/project1.png'
 import project from './assets/project.png'
+import sider from './assets/quicksearch.png'
 import project3 from './assets/project2.png'
 import project4 from './assets/project3.png'
 import project5 from './assets/project4.png'
@@ -8,6 +9,26 @@ import project6 from './assets/project5.png'
 export const projectsData = [
   {
     id: 1,
+    title: 'QuicksearchPlus App',
+    description: `Never miss a brilliant idea. Capture the web securely with ease
+Experience a Clean, Effortless Way to Browse Securely. Instantly Access and Organize Your Favorite Websites. Fast and Private– Try For Free Now!`,
+    image: project,
+    tag: ['All', 'Web'],
+    gitUrl: '',
+    previewUrl: 'https://quicksearchplus.com/',
+  },
+  {
+    id: 2,
+    title: 'QuicksearchPlus Sider and Extension',
+    description: `QuickSearchPlus is a powerful AI-powered sidebar extension that transforms how you search, read, save, and interact with content on the web. Whether you're a researcher, content creator, student, or everyday user, QuickSearchPlus gives you instant access to smart tools designed to make your digital life faster, easier, and more efficient`,
+    image: sider,
+    tag: ['All', 'Web'],
+    gitUrl: '',
+    previewUrl:
+      'https://chromewebstore.google.com/detail/quicksearchplus/mnajmgeoflfbiekjmchpjbbkkljfdopm',
+  },
+  {
+    id: 3,
     title: 'User Management Application',
     description: `The User Management System is a web application that allows administrators to manage users
         efficiently. The key pages in the application are the Login, Dashboard, and User Detail pages.
@@ -19,17 +40,7 @@ export const projectsData = [
     previewUrl: 'https://kalu-ufere-lendsqr-fe-test.vercel.app/',
   },
   {
-    id: 2,
-    title: 'Quicksearch App',
-    description:
-      'A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.',
-    image: project,
-    tag: ['All', 'Web'],
-    gitUrl: '',
-    previewUrl: 'https://quicksearchplus.netlify.app/',
-  },
-  {
-    id: 3,
+    id: 4,
     title: 'Random User App',
     description:
       'This is an application that uses a custom React Hook to fetch users from Random User API and displays the picture and their name on the page one. It shows the current user and a button for fetching the next user and a buttton for moving back to the previous user.',
@@ -39,7 +50,7 @@ export const projectsData = [
     previewUrl: 'https://kalu-randomuser.vercel.app/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Payroll Management System',
     description:
       'This is a payroll management system. It consists majorly of two sections in Elements and ElementLinks. You can create, update, delete and see various elements details and equally create related Element Links. ',
@@ -49,7 +60,7 @@ export const projectsData = [
     previewUrl: 'https://kalu-ufere-softsuite-test.vercel.app/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Hotel Booking UI',
     description: 'This is a UI for a hotel booking',
     image: project4,
@@ -58,7 +69,7 @@ export const projectsData = [
     previewUrl: 'https://hotel-booking-sepia.vercel.app/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Employees Record',
     description:
       'This application is a good example of employees record that can be adopted by an organization to handle the record of its employees. It gives information about the employees regarding their names, date joined, role, level, country, their various departments in the organization and so much more.',
